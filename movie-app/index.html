@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Aop</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form id="titleRatingForm">
+        <input type="text" id="titleInput" placeholder="Enter Title (at least 2 characters)">
+        <input type="number" id="ratingInput" placeholder="Enter Rating (0-10)">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="titleRatingList"></div>
+
+    <button id="sortByTitleAsc">Sort by Title (A-Z)</button>
+    <button id="sortByTitleDesc">Sort by Title (Z-A)</button>
+    <button id="sortByRatingAsc">Sort by Rating (Lowest to Highest)</button>
+    <button id="sortByRatingDesc">Sort by Rating (Highest to Lowest)</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
